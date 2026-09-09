@@ -1,0 +1,43 @@
+/* Reset y estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+
+  padding: 20px;
+}
+
+main {
+  background-color: #ffffff;
+
+  max-width: 500px;
+  width: 100%;
+}
+
+ul {
+  list-style: none; /* Quitamos las viñetas por defecto */
+}
+
+ul ul {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #1d6fa5;
+  transform: translateX(5px); /* Efecto desplazar a la derecha */
+}

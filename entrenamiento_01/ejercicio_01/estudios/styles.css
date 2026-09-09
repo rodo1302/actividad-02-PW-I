@@ -1,0 +1,95 @@
+/* ---------- GENERAL ---------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* ---------- HEADER ---------- */
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  float: left;
+  margin-top: 5px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- CONTENIDO ---------- */
+
+main {
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+/* ---------- SECCION ---------- */
+
+section {
+  background-color: white;
+  padding: 30px;
+
+  border: 1px solid #ccc;
+  border-radius: 10px;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------- TITULOS ---------- */
+
+h2 {
+  color: #333;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #555;
+}
+
+/* ---------- LISTA ---------- */
+
+li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* ---------- FECHA ---------- */
+
+time {
+  font-weight: bold;
+}
+
+/* ---------- IMAGEN ---------- */
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+
+  margin: 30px auto 0;
+
+  border-radius: 10px;
+}

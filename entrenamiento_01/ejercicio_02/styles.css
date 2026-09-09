@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+/* -----------Estilo cuerpo------------- */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  height: 100%;
+  font-size: 2rem;
+}
+
+main {
+  height: 100%;
+  width: 80%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin: 0 auto;
+}
+
+#home {
+  scroll-margin-top: 3rem;
+}
+
+/*---------------Secciones------------- */
+
+.receta {
+  background-color: #fff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border-radius: 3rem 0 3rem 0;
+  border: 1px solid #313131;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.receta img {
+  display: block;
+  width: 20rem;
+  height: 15rem;
+  margin: 0 auto;
+}
+.receta h2 {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+form {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #313131;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+form label {
+  display: inline-block;
+  width: 30%;
+  margin: 1rem 0;
+}
+
+form input {
+  display: inline-block;
+  width: 50%;
+  height: 2rem;
+}
+
+form textarea {
+  display: inline-block;
+  width: 50%;
+  height: 6rem;
+  vertical-align: top;
+}
+
+.botones {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.botones button {
+  width: 30%;
+  margin: 0 2%;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.botones button[type="submit"] {
+  background-color: #96c4e6;
+  color: #000;
+}
+
+.botones button[type="reset"] {
+  background-color: #ee9191;
+  color: #000;
+}
+
+/* -----------NAV------------- */
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #7d7c7c;
+  color: white;
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+  top: 0;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+/* ------------Footer--------------- */
+
+footer {
+  position: fixed;
+  width: 100%;
+  background-color: #7d7c7c;
+  color: white;
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+  bottom: 0;
+  font-size: 1.5rem;
+}
